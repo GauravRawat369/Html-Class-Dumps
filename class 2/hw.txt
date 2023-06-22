@@ -1,0 +1,12 @@
+qes1 
+explain method and action attribute in form tag
+{  Attributes of Type
+    Type
+    Name
+    Value
+    Align
+    Size
+    MaxLength
+}
+
+qes2

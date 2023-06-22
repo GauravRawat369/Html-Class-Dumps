@@ -1,0 +1,154 @@
+q1
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FaceBook's Log In </title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body >
+        
+        <h1>Facebook</h1>
+        <!-- div block -->
+        <div >
+            <h2>Log into Facebook</h2>
+            <form>
+                <input type="text" placeholder="Email address or phone number" />
+                <input type="password" placeholder="Password" />
+                <button type="submit" >Log In</button>
+            </form>
+            <a href="#"> Forgotten account?</a>
+            <a href="#"> Sign up for Facebook</a>
+            
+
+        </div>
+
+    </body>
+</html>
+
+q4
+
+class q4{  
+    public static void main(String args[]){  
+     System.out.println("Name:Mohak Kumar Srivastava\n");
+     System.out.println("Roll:2106531\n");
+     System.out.println("Section:CSE7\n");
+     System.out.println("Branch:Computer science engineering\n");  
+    }  
+}
+
+q5
+import java.util.Scanner;
+
+public class TIHGrade {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter percentage marks");
+		double percentage = scan.nextDouble();
+
+		if(percentage >= 90){
+			System.out.println("Excellent: Grade A");
+		}else if(percentage < 90 && percentage >= 80){
+			System.out.println("Very Good: Grade B");
+		}else if(percentage < 80 && percentage >= 70){
+			System.out.println("Good: Grade C");
+		}else if(percentage < 70 && percentage >= 60){
+			System.out.println("Satisfactory: Grade D");
+		}else if(percentage < 60 && percentage >= 50){
+			System.out.println("Work Hard: Grade E");
+		}else if(percentage < 50 && percentage >= 40){
+			System.out.println("Just Passed: Grade F");
+		}else {
+			System.out.println("Failed!");
+		}
+	}
+
+}
+
+q6
+
+class WeekDays
+{
+    public static void main(String s[])
+    {
+        int day = 2;
+        
+        switch(day)
+        {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            default:
+                System.out.println("Weekend");
+                break;
+        }
+    }
+}
+
+
+q7
+import java.util.Scanner;  
+class q7 {
+    public static void main(String args[]) {
+        int r, sum = 0, temp;
+        Scanner sc= new Scanner(System.in);  
+        System.out.println("Enter a number:");
+        int a= sc.nextInt();  
+        sc.close();  
+        temp = a;
+        while (a > 0) {
+            r = a % 10; // getting remainder
+            sum = (sum * 10) + r;
+            a = a / 10;
+        }
+        if (temp == sum)
+            System.out.println("palindrome number ");
+        else
+            System.out.println("not palindrome");
+    }
+}
+
+
+q8
+
+import java.util.*;
+
+class q8
+
+{
+
+    public static void main(String[] a)
+
+    {
+
+        String firstName;
+
+        String lastName;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter first name, followed by last name:");
+
+        firstName = sc.next();
+
+        lastName = sc.next();
+        System.out.println(firstName + " " + lastName);
+
+        sc.close();
+
+    }
+
+}

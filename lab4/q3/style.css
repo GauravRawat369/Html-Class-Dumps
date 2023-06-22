@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.main-div
+{
+    height: 100vh;
+    width: 100%;
+}
+.logo-div{
+    height: 100px;
+    width: 100%;
+}
+.logo{
+    float: right;
+    margin: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.main-content{
+    position: absolute;
+    height:70%;
+    width: 100%;
+}
+.content1{
+    margin: 30px;
+    position: absolute;
+   height:60%;
+   width: 20%;
+   background-color: white;
+   margin-left: 25%;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.content2{
+    margin: 30px;
+    position: absolute;
+    height:60%;
+    width: 20%;
+    background-color: white;
+    margin-left: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .content3{
+    margin: 30px;
+    position: absolute;
+    height:60%;
+    width: 20%;
+    background-color: white;
+    margin-left: 75%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .main-text{
+    font-size: 80px;
+    position: absolute;
+    margin-left: 20px;
+    font-weight: 700; 
+ }
+ .text1{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+ }
+ .text{
+    font-family: sans-serif; 
+    font-size: 25px;
+    font-weight: 700;
+ }
+.img
+{
+    margin-top: 40px;
+    height: 260px;
+    width: 260px;
+}
